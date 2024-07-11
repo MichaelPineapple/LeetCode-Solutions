@@ -1,6 +1,4 @@
 """ Binary Search """
-# Time: O(?)
-# Time: O(?)
 class Solution(object):
     def search(self, nums, target):
         l, r = 0, len(nums) - 1

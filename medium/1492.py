@@ -1,6 +1,4 @@
 """ The Kth Factor of N """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def kthFactor(self, n, k):
         j = 1

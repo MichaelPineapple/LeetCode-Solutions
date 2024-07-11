@@ -1,6 +1,4 @@
 """ Best Time To Buy And Sell Stock """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def maxProfit(self, prices):
         l, r, m = 0, 1, 0

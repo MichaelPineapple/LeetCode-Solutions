@@ -1,2 +1,4 @@
 class ListNode:
-    pass
+    def __init__(self):
+        self.next = None
+        

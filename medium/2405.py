@@ -1,6 +1,4 @@
 """ Optimal Partition of String """
-# Time O(?)
-# Space O(?)
 class Solution(object):
     def partitionString(self, s):
         h, a = set(), 1

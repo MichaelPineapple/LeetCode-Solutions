@@ -3,7 +3,7 @@
 # Space:    O(1)
 class Solution(object):
     def sortColors(self, nums):
-        l = [0, 0, 0]
+        l = [0] * 3
         for x in nums:
             l[x] += 1
         i = 0

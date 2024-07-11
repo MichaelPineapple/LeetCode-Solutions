@@ -1,6 +1,4 @@
 """ Leaf-Similar Trees """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def leafSimilar(self, root1, root2):
         a1, a2 = [], []

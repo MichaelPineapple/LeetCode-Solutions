@@ -1,6 +1,4 @@
 """ Flipping An Image """
-# Time O(?)
-# Space O(?)
 class Solution(object):
     def flipAndInvertImage(self, image):
         out = []
@@ -14,5 +12,4 @@ class Solution(object):
                     v = 0
                 t.append(v)
             out.append(t)
-        print(out)
         return out

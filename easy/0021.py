@@ -1,8 +1,6 @@
 from common.ListNode import ListNode
 
 """ Merge Two Sorted Lists """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def mergeTwoLists(self, list1, list2):
         head = ListNode()

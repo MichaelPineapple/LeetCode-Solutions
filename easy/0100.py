@@ -1,6 +1,3 @@
-""" ??? """
-# Time:     O(?)
-# Space:    O(?)
 class Solution(object):
     def isSameTree(self, p, q):
         pv, qv = None, None

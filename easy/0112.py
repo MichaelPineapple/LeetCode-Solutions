@@ -1,6 +1,3 @@
-""" ??? """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def hasPathSum(self, root, targetSum):
         if root is not None:

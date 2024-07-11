@@ -1,6 +1,4 @@
 """ Distribute Candies """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def distributeCandies(self, candyType):
         n = len(candyType)

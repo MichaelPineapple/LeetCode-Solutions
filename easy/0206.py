@@ -1,6 +1,4 @@
 """ Reverse Linked List """
-# Time: O(?)
-# Space: O(?)
 class Solution(object):
     def reverseList(self, head):
         p = None

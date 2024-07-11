@@ -1,6 +1,4 @@
 """ Top K Frequent Elements """
-# Time:     O(?)
-# Space:    O(?)
 class Solution(object):
     def topKFrequent(self, nums, k):
         d, r, j = {}, [], 0

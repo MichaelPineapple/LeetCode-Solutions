@@ -1,6 +1,3 @@
-""" ??? """
-# Time:     O(?)
-# Space     O(?)
 class Solution(object):
     def inorderTraversal(self, root):
         l = []
