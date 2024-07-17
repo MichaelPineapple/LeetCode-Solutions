@@ -1,6 +1,5 @@
 """ Maximum Depth of Binary Tree """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Solution(object):
     def maxDepth(self, root):
         if root:

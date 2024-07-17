@@ -1,6 +1,5 @@
 """ Permutation In String """
-# O(n) Time
-# O(1) Space
+# O(n)
 class Solution(object):
     def checkInclusion(self, s1, s2):
         a = ord('a')

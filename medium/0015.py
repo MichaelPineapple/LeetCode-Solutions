@@ -1,6 +1,5 @@
 """ Threesome """
-# O(n^2) Time
-# O(n)   Space
+# O(n^2)
 class Solution(object):
     def threeSum(self, nums):
         nums.sort()

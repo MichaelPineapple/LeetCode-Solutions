@@ -1,6 +1,5 @@
 """ Encode And Decode Strings """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Codec:
     def encode(self, strs):
         o = ""

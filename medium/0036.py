@@ -1,6 +1,5 @@
 """ Valid Sudoku """
-# O(1) Time <- Because Sudoku is always 9x9???
-# O(1) Space
+# O(1) <- Because Sudoku is always 9x9???
 class Solution(object):
     def isValidSudoku(self, board):
         squareMap = {(0, 0): set(), (0, 1): set(), (0, 2): set(),

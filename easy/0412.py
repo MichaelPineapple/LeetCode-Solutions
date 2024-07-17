@@ -1,6 +1,5 @@
 """ FizzBuzz """
 # O(n)?
-# O(1)?
 class Solution(object):
     def fizzBuzz(self, n):
         o = []

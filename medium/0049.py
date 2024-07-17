@@ -1,6 +1,5 @@
 """ Group Anagrams """
-# O(n*k) Time
-# O(n*k) Space
+# O(n*k)
 class Solution(object):
     def groupAnagrams(self, strs):
         m = {}

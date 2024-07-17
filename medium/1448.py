@@ -1,6 +1,5 @@
 """ Count Good Nodes In Binary Tree """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Solution(object):
     def goodNodes(self, root):
         return self.f(root, None)

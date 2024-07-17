@@ -1,6 +1,5 @@
 """ Maximize Distance To Closest Person """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Solution(object):
     def maxDistToClosest(self, seats):
         n = len(seats)

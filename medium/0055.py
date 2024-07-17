@@ -1,6 +1,5 @@
 """ Jump Game """
-# O(n) Time
-# O(1) Space
+# O(n)
 class Solution(object):
     def canJump(self, nums):
         for i in range(len(nums)-1):

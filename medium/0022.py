@@ -1,6 +1,5 @@
 """ Generate Parenthesis """
-# O(2^n) Time
-# O(n) Space
+# O(2^n)
 class Solution(object):
     def generateParenthesis(self, n):
         self.num, self.valid = n, []

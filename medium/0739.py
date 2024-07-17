@@ -1,6 +1,5 @@
 """ Daily Temperatures """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Solution(object):
     def dailyTemperatures(self, temperatures):
         stack = []

@@ -1,6 +1,5 @@
 """ Rotated Digits """
-# O(n) Time
-# O(1) Space
+# O(n)
 class Solution(object):
     def rotatedDigits(self, n):
         m, o = {'0': '0', '1': '1', '8': '8', '2': '5', '5': '2', '6': '9', '9': '6'}, 0

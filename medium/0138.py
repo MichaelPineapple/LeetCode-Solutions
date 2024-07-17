@@ -1,8 +1,7 @@
 from common.RndNode import RndNode
 
 """ Copy List With Random Pointer """
-# O(n) Time
-# O(n) Space
+# O(n)
 class Solution(object):
     def copyRandomList(self, head):
         if not head:

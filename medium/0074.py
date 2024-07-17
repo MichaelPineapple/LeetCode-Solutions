@@ -1,6 +1,5 @@
 """ Search a 2D Matrix """
-# O(log(m*n))?  Time
-# O(1)?         Space
+# O(log(m*n))?
 class Solution(object):
     def searchMatrix(self, matrix, target):
         w = len(matrix[0])

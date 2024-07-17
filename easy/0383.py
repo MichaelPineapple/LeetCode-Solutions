@@ -1,6 +1,5 @@
 """ Ransom Note """
-# O(n)? Time
-# O(1)? Space
+# O(n)?
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         l = [0]*26

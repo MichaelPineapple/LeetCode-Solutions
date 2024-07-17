@@ -1,6 +1,5 @@
 """ Evaluate Reverse Polish Notation """
 # O(n)
-# O(n)
 class Solution(object):
     def evalRPN(self, tokens):
         fmap = {

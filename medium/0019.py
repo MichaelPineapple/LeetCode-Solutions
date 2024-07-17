@@ -1,8 +1,7 @@
 from common.ListNode import ListNode
 
 """ Remove Nth Node From End of List """
-# O(n)? Time
-# O(1)? Space
+# O(n)?
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         node = head

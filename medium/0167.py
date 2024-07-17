@@ -1,6 +1,5 @@
 """ Two Sum II - Input Array is Sorted """
-# O(n) Time
-# O(1) Space
+# O(n)
 class Solution(object):
     def twoSum(self, numbers, target):
         l, r = 0, len(numbers) - 1

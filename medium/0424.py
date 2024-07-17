@@ -1,6 +1,5 @@
 """ Longest Repeating Character Replacement """
-# O(n) Time
-# O(1) Space
+# O(n)
 class Solution(object):
     def characterReplacement(self, s, k):
         if len(s) < 1: return 0

@@ -1,6 +1,5 @@
 """ Sort Colors """
-# Time:     O(n)
-# Space:    O(1)
+# O(n)
 class Solution(object):
     def sortColors(self, nums):
         l = [0] * 3

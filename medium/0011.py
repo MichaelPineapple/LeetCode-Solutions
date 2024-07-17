@@ -1,6 +1,5 @@
 """ Container With Most Water """
-# O(n)? Time
-# O(1)? Space
+# O(n)
 class Solution(object):
     def maxArea(self, height):
         n = len(height)
