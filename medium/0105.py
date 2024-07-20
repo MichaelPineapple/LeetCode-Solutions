@@ -1,6 +1,6 @@
-""" Construct Binary Tree From Preorder And Inorder Traversal """
 from common.TreeNode import TreeNode
 
+""" Construct Binary Tree From Preorder And Inorder Traversal """
 # O(n)
 class Solution(object):
     def buildTree(self, preorder, inorder):
