@@ -1,13 +1,10 @@
 """ Invert Binary Tree """
 class Solution(object):
     def invertTree(self, root):
-        self.f(root)
+        def f(node):
+            if not node: return
+            node.left, node.right = node.right, node.left
+            f(node.left)
+            f(node.right)
+        f(root)
         return root
-
-    def f(self, node):
-        if node:
-            t = node.left
-            node.left = node.right
-            node.right = t
-            self.f(node.left)
-            self.f(node.right)
