@@ -1,3 +1,4 @@
+""" Remove Duplicates From Sorted List """
 class Solution(object):
     def deleteDuplicates(self, head):
         if head is not None:

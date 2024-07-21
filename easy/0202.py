@@ -1,3 +1,4 @@
+""" Happy Number """
 class Solution(object):
     def isHappy(self, n):
         q = set()

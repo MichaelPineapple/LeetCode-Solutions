@@ -1,3 +1,4 @@
+""" Majority Element """
 class Solution(object):
     def majorityElement(self, nums):
         d, m, a = {}, 0, 0
