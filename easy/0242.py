@@ -1,6 +1,10 @@
 """ Valid Anagram """
-# O(n*log[n])
+# O(n)
 class Solution(object):
     def isAnagram(self, s, t):
-        return ''.join(sorted(s)) == ''.join(sorted(t))
-# ToDo - Improve Time Complexity
+        a = [0]*26
+        for c in s: a[ord(c) - ord('a')] += 1
+        for c in t: a[ord(c) - ord('a')] -= 1
+        for x in a:
+            if x != 0: return False
+        return True
