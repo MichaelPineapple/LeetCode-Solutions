@@ -1,4 +1,4 @@
-from common.RndNode import RndNode
+from utils.RndNode import RndNode
 
 """ Copy List With Random Pointer """
 # O(n)

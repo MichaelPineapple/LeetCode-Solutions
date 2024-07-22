@@ -1,4 +1,4 @@
-from common.TreeNode import TreeNode
+from utils.TreeNode import TreeNode
 
 """ Construct Binary Tree From Preorder And Inorder Traversal """
 # O(n)

@@ -1,4 +1,4 @@
-from common.ListNode import ListNode
+from utils.ListNode import ListNode
 
 """ Merge Two Sorted Lists """
 class Solution(object):
